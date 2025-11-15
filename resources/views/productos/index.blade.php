@@ -38,14 +38,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="/productos">Productos</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Servicios adicionales
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Servicios de reparación</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+              <li class="nav-item">
+                <a class="nav-link" href="/login">Log in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/user">Ver Productos en stock</a>
+              </li>
                 </div>
               </li>
             </ul>
