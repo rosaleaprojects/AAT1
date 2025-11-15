@@ -38,12 +38,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="/productos">Productos</a>
               </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/user">Ver Productos en stock</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="/login">Log in</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/user">Ver Productos en stock</a>
-              </li>
+              
                 </div>
               </li>
             </ul>
