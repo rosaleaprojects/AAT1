@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body style="background-image: url('{{ asset('images/backgroundh.jfif') }}'); background-size: cover; background-position: center;">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(43, 221, 96, 1);">
+        <div class="container d-flex justify-content-center w-100">
+          <a class="navbar-brand" href="#">Gangas VideoGames      </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="/index">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/tienda">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contacto">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/productos">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Servicios adicionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Servicios de reparación</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1 style="text-align: center; color: black"> ¿Dudas? O ¿Preguntas? </h1>
+    <h2 style="text-align: center; color: black"> No dudes en contactar con nosotros. </h2>
+    <p style="text-align: center; color: black"> Llena la siguiente forma para que uno de nuestros expertos se comunique contigo lo más pronto posible.</p>
+    
+ <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <form action="action_page.php" class="contact">
+      <label for="fname">Nombre</label>
+      <input type="text" id="fname" name="firstname" placeholder="Javier">
+
+      <label for="lname">Apellido</label>
+      <input type="text" id="lname" name="lastname" placeholder="example@mail.com">
+
+      <label for="email">Correro Electronico</label>
+      <input type="text" id="lname" name="lastname" placeholder="Rosales">
+
+      <label for="country">País</label>
+      <select id="country" name="country">
+        <option value="australia">Guatemala</option>
+        <option value="canada">Canada</option>
+        <option value="usa">El Salvador</option>
+        <option value="usa">México</option>
+        <option value="usa">Panamá</option>
+        <option value="usa">Nicaragua</option>
+        <option value="usa">Costa Rica</option>
+        <option value="usa">Brazil</option>
+      </select>
+
+      <label for="subject">Su mensaje</label>
+      <textarea id="subject" name="subject" placeholder="Escriba su mensaje" style="height:200px"></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+
+
+
+      <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/index">Inicio</a></li>
+                <li class="list-inline-item"><a href="/tienda">Tienda</a></li>
+                <li class="list-inline-item"><a href="/contacto">Contacto</a></li>
+                <li class="list-inline-item"><a class="nav-link" href="/productos">Productos</a></li>
+                <li class="list-inline-item"><a href="#">Terminos y Condiciones</a></li>
+                <li class="list-inline-item"><a href="#">Politica de privacidad</a></li>
+            </ul>
+            <p class="copyright">© 2025 - Derechos Reservados - Rosales S.A.</p>
+        </footer>
+    </div>
+
+  </body>
+</html>
